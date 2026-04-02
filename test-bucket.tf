@@ -72,7 +72,7 @@ resource "aws_s3_bucket_policy" "assets_read_policy" {
         Effect    = "Allow"
         Principal = "*"
         Action    = "s3:GetObject"
-        Resource  = "arn:aws:s3:::YOUR_BUCKET/*"
+        Resource  = "arn:aws:s3:::${aws_s3_bucket.frontend.id}/*"
       }
     ]
   })
