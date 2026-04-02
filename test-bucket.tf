@@ -27,6 +27,7 @@ locals {
     "webhook-delivery.JPG"          = "image/jpg"
     "u6KxR-1W.jpg" = "image/jpg"
     "wub8Qfph.jpg" = "image/jpg"
+    "bucket_object_upload.JPG" = "image/jpg"
   }
 }
 
